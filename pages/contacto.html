@@ -10,8 +10,8 @@
 </head>
 <body>
     <header>
-        <i class="bi bi-amd"></i>
-        <h2 class="Titulo"></i>CodeHive</h2>
+        <i id="icono" class="bi bi-amd"></i>
+        <h2 id="h2" class="Titulo"></i>CodeHive</h2>
         <nav>
             <a href="../index.html">Inicio</a>
             <a href="../pages/cursos.html">Cursos</a>
@@ -20,9 +20,8 @@
     </header>
     <main>
         <section>
-            <h2>Contactate con nosotros</h2>
-            <img src="../imagenes/contact us.svg" alt="contacto">
-        
+            <h2 id="h2-contacto" >Contactate con nosotros</h2>
+            
                 <form id="formularioContactos">
                     <div class="inputnombre">
                         <label for="nombre">Ingrese su nombre</label>
@@ -52,9 +51,12 @@
                             <label for="comentarios">¿Tenes alguna duda?</label>
                             <textarea name="comentarios" id="comentario" placeholder="Ingresa tu consulta"></textarea>
                         
+                        </div>
+                        <div id="alerta-enviado">
                             <input type="submit" value="Enviar" class="btn-enviar"/>
                         </div>
                 </form>
+                <img id="imagen-contacto" src="../imagenes/contact us.svg" alt="contacto">
             </section>
     </main>
     <footer>
