@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(209, 229, 247);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;   
+}
+
+header{
+    background-color: rgb(13, 117, 165);
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 6vw;
+    color: rgb(255, 255, 255);
+    margin: 2vh 1vw;
+    border-radius: 7px;
+}
+h1{
+    font-size: 52px;
+}
+h4{
+    font-size: 30px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+header nav a{
+    color: rgb(250, 250, 250);
+    text-decoration: none;   
+}
+nav a:hover{
+    color: #2779af;
+    cursor: wait;
+ }
+
+ .caja{width: 100px;
+    height: 100px;
+    background-color: #96e8f7;}
+
+
+
+.hero{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13, 117, 165);
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px ;
+}
+.hero img{
+    margin: auto;
+    padding: auto;
+    border: auto;
+    vertical-align: middle;
+    justify-content: right;
+    display:flex;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 2px;
+    border-color: #0d5966;
+}
+
+
+main{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    flex-direction:column;
+    align-items: center;
+    gap: 10vh;
+    padding: 3vh 6vw;
+    align-content: space-between;
+    }
+
+
+.conocer {
+    color:white;
+    background-color: #2fb6ce;
+    border: gray 1px solid;
+    font-size: 15px;
+    padding: 12px 15px;
+    border-radius: 14px;
+}
+.cursos {
+    color:white;
+    background-color: #2fb6ce;
+    border: gray 1px solid;
+    font-size: 15px;
+    padding: 12px 15px;
+    border-radius: 14px;
+    box-shadow: #0d5966;
+}
+
+main p{
+    display: flex;
+    margin-left: 550px;
+    margin-top: 5%;
+    
+}
+
+footer {
+    background-color: rgb(13, 117, 165);
+    padding: 1vh 5vw;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+}
+
+main form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+main form .inputContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    font-size: 18px;
+    border: #2779af;
+}
+main form .inputContainer input,select{
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.btn-enviar{
+    padding: 10px;
+    background-color: rgb(13, 117, 165);
+    border-radius: 7px;
+    margin-bottom: 5px;
+    color: white;
+    border:solid rgb(13, 117, 165) 5px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 0%;
+    box-shadow: #0d5966;
+}
+.btn-enviar:hover{
+    transition: 1s ease-in-out;
+    
+    background-color: white;
+}
+
+.formularioContactos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+.card-user{
+    padding: 10px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+
+}
+
+.inputContainer{
+    justify-content: space-between;
+}
+.caja {
+    vertical-align: text-bottom;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    background-color: rgb(6, 98, 141);
+    border: 5px rgb(57, 173, 219) solid; 
+    border-top-right-radius: 70px;
+    margin: 50px 30px;
+    padding: 50px 30px;
+    align-items: center;
+    
+}
+
+#imagenjs{
+    width: 180px;
+    height: 180px;
+    align-self: center;
+
+}
+#imagenphyton{
+    width: 230px;
+    height: 230px;
+    align-self: center;
+}#imagenjava{
+    width: 180px;
+    height: 180px;
+    align-self: center;
+}#imagenc{
+    width: 180px;
+    height: 180px;
+    align-self: center;
+}
