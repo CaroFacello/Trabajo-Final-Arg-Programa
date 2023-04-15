@@ -22,14 +22,11 @@ body{
     flex-direction: column;
     min-height: 100%;   
 }
-
-header i{
+#icono{
     font-size: 40px;
-    margin-right: 3%;
 }
-header h2{
+#h2{
     font-size: 30px;
-    margin-right: auto;
 }
 header{
     background-color: rgb(13, 117, 165);
@@ -55,13 +52,14 @@ nav{
     align-items: center;
     gap: 3vw;
 }
-nav a:hover{
-    color: rgb(8, 15, 15);
-}
 nav a{
     color: rgb(250, 250, 250);
     text-decoration: none;   
 }
+nav a:hover{
+    color: #2779af;
+    cursor: wait;
+ }
 
 h1{
     font-size: 52px;
@@ -93,27 +91,12 @@ h4{
     border-color: #0d5966de;
 }
 
-.opcioncursos{
-    align-items: center;
-    margin: auto;
-}
-.opcioncursos h2{
-    margin-left: 40%;
-    font-size: 42px;
-}
 footer {
     background-color: rgb(13, 117, 165);
     padding: 1vh 5vw;
     text-align: center;
     color: white;
     margin-bottom: auto;
-}
-.footer2{
-        background-color: rgb(13, 117, 165);
-        padding: 1vh 5vw;
-        text-align: center;
-        color: white;
-        margin-bottom: auto;
 }
 #h2-contacto{
     font-size: 30px;
@@ -183,7 +166,7 @@ main form .inputContainer input,select{
 }
 .caja {
     vertical-align: text-bottom;
-    width: 400px;
+    width: 300px;
     height: 500px;
     display: inline-block;
     background-color: rgb(6, 98, 141);
@@ -202,8 +185,8 @@ main form .inputContainer input,select{
 
 }
 #imagenphyton{
-    width: 230px;
-    height: 230px;
+    width: 180px;
+    height: 180px;
     align-self: center;
 }#imagenjava{
     width: 180px;
